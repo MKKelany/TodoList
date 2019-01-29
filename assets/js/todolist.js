@@ -15,7 +15,7 @@ $("input[type=text]").on("keypress",function(e){
         //catch input string when user hit enter 
         var todoText = $(this).val();
         $(this).val("");
-        $("ul").append("<li><span><i class='fas fa-trash-alt'></i><span> "+todoText+"</li>");
+        $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> "+todoText+"</li>");
 
     }
 })
